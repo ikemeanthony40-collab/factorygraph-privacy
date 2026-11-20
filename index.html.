@@ -1,0 +1,84 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for FactoryGraph, an Atlassian Forge app.">
+  <title>FactoryGraph Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #172b4d;
+      background: #f7f8fa;
+    }
+    body { margin: 0; line-height: 1.65; }
+    main {
+      max-width: 820px;
+      margin: 48px auto;
+      padding: 40px;
+      background: white;
+      border: 1px solid #dfe1e6;
+      border-radius: 12px;
+    }
+    h1, h2 { line-height: 1.25; color: #172b4d; }
+    h1 { margin-bottom: .25rem; }
+    .meta { color: #626f86; margin-top: 0; }
+    a { color: #0c66e4; }
+    li { margin: .4rem 0; }
+    footer {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid #dfe1e6;
+      color: #626f86;
+      font-size: .92rem;
+    }
+    @media (max-width: 600px) {
+      main { margin: 0; padding: 24px 18px; border-radius: 0; border: 0; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>FactoryGraph Privacy Policy</h1>
+  <p class="meta">Effective date: 20 November 2026</p>
+
+  <p>FactoryGraph is an Atlassian Forge app that helps authorized Jira users review manufacturing change information, related Jira records, potential impact areas, and evidence coverage. This policy explains what information the app processes and how information is handled.</p>
+
+  <h2>1. Information the app processes</h2>
+  <p>When a user opens FactoryGraph in Jira, the app may retrieve Jira issue information made available to that user and permitted by the app's Jira access scope. This can include issue keys, summaries, descriptions, issue relationships, and other issue details needed to present change and impact analysis.</p>
+  <p>Jira issue content may contain personal information if users or administrators have included it in their Jira records. FactoryGraph does not require users to enter personal information for its core functionality.</p>
+
+  <h2>2. Information stored by FactoryGraph</h2>
+  <p>FactoryGraph can save follow-up action drafts in the user's browser's local storage. A draft may contain text derived from Jira issue information, such as a proposed change, a potential consequence, review checks, and source descriptions. Because Jira content can contain personal information, these drafts may also contain personal information.</p>
+  <p>These drafts are stored in the browser on the device being used. They may remain there beyond 24 hours and persist between visits until the user discards the draft or clears the relevant browser site data. Anyone with access to the same browser profile or device may be able to access locally stored drafts.</p>
+  <p>The follow-up workflow creates drafts only; it does not create or update Jira issues.</p>
+
+  <h2>3. Platform and service providers</h2>
+  <p>FactoryGraph runs on Atlassian Forge and uses Atlassian's platform to provide its Jira integration. Jira information remains subject to the customer's Atlassian configuration and applicable Atlassian terms and policies. Information may be processed by Atlassian as necessary to provide Jira and Forge services.</p>
+
+  <h2>4. Sharing and disclosure</h2>
+  <p>The developer does not sell personal information. FactoryGraph is not designed to send locally saved follow-up drafts to advertising networks or data brokers. This statement does not limit processing by Atlassian as part of providing its platform services.</p>
+
+  <h2>5. Data retention and deletion</h2>
+  <p>Jira records are retained and managed in the customer's Jira site under that site's policies. Browser-local follow-up drafts remain until the user discards them in FactoryGraph or clears the browser's site data for the Jira site. Clearing browser data may also remove other site preferences or data.</p>
+
+  <h2>6. Access and permissions</h2>
+  <p>FactoryGraph is configured with the Jira read:jira-work scope to retrieve Jira work information the user is authorized to view. It is not configured with Jira issue-creation or issue-editing scopes. The app's analysis may identify possible relationships or review leads; it does not establish that a relationship, impact, or technical conclusion is factually verified.</p>
+
+  <h2>7. Children's privacy</h2>
+  <p>FactoryGraph is a business productivity app intended for use in organizational Jira environments. It is not directed to children.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>This policy may be updated if the app's functionality or information handling changes. The effective date above will be revised when material changes are made. Users should review this page periodically.</p>
+
+  <h2>9. Contact</h2>
+  <p>For questions or privacy requests concerning FactoryGraph, contact the app maintainer through the <a href="https://github.com/ikemeanthony40-collab/factorygraph-privacy">FactoryGraph privacy repository on GitHub</a>. Please do not post personal, confidential, or sensitive information in a public issue.</p>
+
+  <footer>
+    <p>FactoryGraph · Privacy policy · Maintained by the independent app developer.</p>
+  </footer>
+</main>
+</body>
+</html>
